@@ -1,4 +1,4 @@
-# SCPC-2016
+# Samsung Collegiate Programming Cup (SCPC 2016)
 ## 3N + 1
 3N + 1에 대해서는 [Collatz conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture)를 참고하면 좋을 것 같다.
 Programming Challenges (알고리즘 트레이닝 북)에서 1번 문제로 다루고 있을 정로도 한번 쯤은 풀어봤을 문제이다.
