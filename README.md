@@ -25,7 +25,7 @@ dp[i][j] = ![recurrence](./images/recurrence.png) 로 문제를 풀 수 있다.
 이렇게 문제를 풀 경우, 50,000번, 100번, 100번 (각 각, N, K, K번)의 루프를 돌게 문제를 풀 경우 500,000,000번의 연산을 수행해야 하기 때문에 TLE를 받게 된다. 그러므로, K번의 합 계산에 대해서, Memoization 해주면 된다.
 
 
-또, 이 문제는 계속 나머지 연산을 하며 계산을 해주게 되는데, ![recurrence](./images/recurrence2.png)이 ![recurrence](./images/recurrence4.png)보다 작아질 수 있게 되므로 값이 음수가 됨을 방지하기 위해서 dp[i][j]를 계산해 줄 때, (![recurrence](./images/recurrence3.png))와 같이 MOD 값을 더해주는 것이 포인트이다.
+또, 이 문제는 계속 나머지 연산을 하며 계산을 해주게 되는데, ![recurrence](./images/recurrence2.png)이 ![recurrence](./images/recurrence4.png)보다 작아질 수 있게 되므로 값이 음수가 됨을 방지하기 위해서 dp[i][j]를 계산해 줄 때, ![recurrence](./images/recurrence3.png)와 같이 MOD 값을 더해주는 것이 포인트이다.
 두서없이 적었지만, 2번의 for문을 통해서 문제를 해결 할 수 있다.
 
 ## 바이러스
